@@ -1,21 +1,56 @@
-.bg-light{
-    background-color: rgb(135,255,151) !important;
-} /* overrides the bootstraps' menu bar color */
-
-/*.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-
-  }
-
-.navbar-dark .navbar-nav .nav-link {
-
-} */
-
-.menu img {
-  padding:4px;
-  border:1px solid #021a40;
-  background-color: white;
+.bg-dark {
+  background-color: #bf0000 !important;
+  font-family: Lucida Typewriter;
 }
 
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #656664;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  padding-right: 0.5%;
+}
+/*CSS for Menu page*/
+.cell {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  max-width: 275px;
+  max-height: auto;
+  margin-bottom: 5px;
+  font-size: 0.83em;
+  font-family: Lucida Typewriter;
+}
+/* Image Grid */
+.menu {
+
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width:80%;
+    padding-left: 5%;
+    margin: auto;
+  }
+
+  .menuHead h1 {
+    width: 95%;
+    text-align: center;
+    font-family: Lucida Typewriter;
+  }
+
+  .menu img {
+    padding:4px;
+    border:1px solid #021a40;
+    background-color: white;
+    max-width: 275px;
+    font-size:80%;
+    text-align:center;
+  }
+/*end CSS for menu page*/
 img {
    /* height: 300px; */
    max-width: 100%;
@@ -27,6 +62,7 @@ h1{
   margin-top: 15px !important;
   margin-left: 30px !important;
   margin-right: 15px;
+  text-align:
 }
 
 p{
@@ -35,20 +71,15 @@ p{
   color:black;
 }
 
-/* Image Grid */
-.menu {
-    display: grid;
-    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
 
-  .image img {
-    width: 100%;
-  }
 
-  nav img {
-    height:10px !important;
+
+.image img {
+  width: 100%;
+}
+
+nav img {
+  height:10px !important;
 }
 
 
@@ -156,9 +187,16 @@ body{
   height:100%;
   margin:0;
   padding:0;
-  background-image: url(/images/minimalistBackground.jpg);
+  background-color: #8fa390;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /*background-image: url(/images/minimalistBackground.jpg);*/
   position: relative;
 }
+
+
+
+
 
 
 .revitem{
