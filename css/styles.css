@@ -36,6 +36,8 @@
   width: 80%;
   padding-left: 5%;
   margin: auto;
+  font-weight: 550;
+  padding-top: 5%;
 }
 
 .menuHead h1 {
@@ -84,7 +86,7 @@ nav img {
 /* Basic Masonry Version */
 .masonry {
   /* Masonry container */
-  column-count: 4;
+  column-count: 3;
   column-gap: 1em;
 }
 
@@ -108,7 +110,7 @@ html {
   box-sizing: inherit;
 }
 
-/* The Masonry Container */
+/* The Masonry Cont ainer */
 .masonry {
   margin: 1.5em auto;
   max-width: 98%;
@@ -125,7 +127,7 @@ html {
 /* Masonry on large screens */
 @media only screen and (min-width: 1024px) {
   .masonry {
-    column-count: 4;
+    column-count: 3;
   }
 }
 
@@ -182,7 +184,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #8fa390;
+  background-color: #8c5c38; /*#8fa390;*/
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   /*background-image: url(/images/minimalistBackground.jpg);*/
@@ -191,10 +193,17 @@ body {
 
 }
 
+.stars {
+  padding-left: 33%;
+  padding-top: 5%;
+}
+.checked {
+  color: yellow;
+}
 .revitem {
   display: inline-block;
   background: #fff;
-  padding: 1.5em;
+  padding: 0em;
   margin: 0 0 1.5em;
   width: 100%;
   box-sizing: border-box;
