@@ -23,7 +23,7 @@
   max-width: 275px;
   max-height: auto;
   margin-bottom: 5px;
-  font-size: 0.83em;
+  font-size: 1.2em;
   font-family: Lucida Typewriter;
 }
 .about {
@@ -200,11 +200,29 @@ footer img {
   padding-left: 1%;
 }
 
-footer {
-  max-height: 40px;
-  background-color: #494949;
-  opacity: 1;
+/* footer {
+  position: absolute;
 }
+
+hr {
+  width: 5px;
+  color: black;
+  background-color: black;
+} */
+
+
+.footer {
+  position: fixed;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(248, 45, 96, 0.692);
+  text-align: center;
+  size: 5%;
+}
+
 
 .masonry img {
   width: 100%;
@@ -247,4 +265,8 @@ aside {
   float: left;
   margin: 0 1.5%;
   max-width: 20%;
+}
+
+a {
+  color: yellow;
 }
