@@ -43,7 +43,7 @@
   width: 80%;
   padding-left: 5%;
   margin: auto;
-  font-weight: 550;
+  font-weight: 545;
   padding-top: 5%;
 }
 
@@ -176,12 +176,21 @@ html {
 
 .abt {
   text-align: center;
-  font-size: 4em;
+  /*font-size: 4em;*/
   margin-left: 30px;
   margin-right: 15px;
-  margin-top: 0 !important;
+  /*margin-top: 0 !important;*/
+  padding-top: 17%;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
-
+.cell p {
+  text-align: justify;
+}
+.cell img {
+  max-width: 100%
+}
 
 body {
   height: 100%;
@@ -200,26 +209,15 @@ footer img {
   padding-left: 1%;
 }
 
-/* footer {
-  position: absolute;
-}
-
-hr {
-  width: 5px;
-  color: black;
-  background-color: black;
-} */
-
 
 .footer {
-  position: fixed;
+  position: auto;
   padding-top: 1%;
   padding-bottom: 1%;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(248, 45, 96, 0.692);
-  text-align: center;
+  text-align: left;
   size: 5%;
 }
 
