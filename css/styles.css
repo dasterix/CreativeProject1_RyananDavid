@@ -211,7 +211,7 @@ footer img {
 
 
 .footer {
-  position: auto;
+  position: fixed;
   padding-top: 1%;
   padding-bottom: 1%;
   left: 0;
